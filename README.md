@@ -13,6 +13,6 @@ Get them at **https://drip.auralo.fit**, or from the [latest release](../../rele
 | `AuraloDrip.AppImage` / `AuraloDrip-aarch64.AppImage` | Any Linux distribution, nothing to install: `chmod +x` and run |
 | `auralo-drip_x86_64.tar.gz` / `auralo-drip_aarch64.tar.gz` | Anything else: unpack and run `usr/bin/auralo-drip` (needs WebKitGTK 4.1) |
 
-Arch Linux: `auralo-drip-bin` on the AUR (`yay -S auralo-drip-bin`), once published.
+Arch Linux: download `PKGBUILD` and run `makepkg -si` in the same folder. (On the AUR as `auralo-drip-bin` once AUR registration reopens.)
 
 Each release lists SHA-256 checksums in `SHA256SUMS.txt`. Releases are published automatically by the build.
